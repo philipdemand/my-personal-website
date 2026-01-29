@@ -1,5 +1,18 @@
 export const PROJECTS = [
     {
+      title: "AI Flashcards - an AI-powered Flashcard Generator",
+      description: "AI Flashcards is a full-stack web application that lets users create study flashcards manually or generate them automatically using AI. Users can type in a topic, and the app generates multiple flashcards with questions and answers, perfect for studying or reviewing concepts. The app features an intuitive interface, card flip animations, and the ability to delete individual flashcards.  Frontend built with React, React-Bootstrap, and CSS.  Backend built using Node.js and Express.js and uses an OpenAI API for card generation.",
+      technologies: ["nodejs", "javascript", "npm", "chrome", "react", "reactbootstrap", "css3", "git", "github", "html5", "homebrew", "vscode", "OpenAI", "Render", "Axios"],
+      page: "https://ai-flashcards-mzbm.onrender.com/",
+      github: "https://github.com/philipdemand/ai-flashcards",
+      alt: "AI-Flashcards",
+      image: {
+        width: 0,
+        height: 10,
+        url: '/flashcardPNG.001.png'
+      }
+    },
+    {
       title: "Gig-Board - A Gig-Finder for Musicians",
       description: "An app where musicians can find and apply for gigs, and where holders of gigs can find musicians.  Frontend built with React.  Backend built with Ruby On Rails using a PostgreSQL database, bcrypt for password-hashing, and delegated types to distinguish user-types: musicians and directors. Styled using React Bootstrap",
       technologies: ["nodejs", "javascript", "npm", "chrome", "ruby", "rails", "react", "reactrouter", "reactbootstrap", "css3", "git", "github", "postman", "html5", "postgresql", "homebrew", "vscode"],
@@ -10,19 +23,6 @@ export const PROJECTS = [
         width: 2880,
         height: 1644,
         url: '/gig-board.png'
-      }
-    },
-    {
-      title: "E-Vent - An Event-Planning App",
-      description: "An app where users can announce events, and where users can register and manage their attendance at events.  Frontend built with React utilizing React-Router.  Backend build with Ruby On Rails using bcrypt for password-hashing.",
-      technologies: ["npm", "ruby", "rails", "react", "reactrouter", "chrome", "css3", "git", "postman", "nodejs", "javascript", "github", "html5", "mysql", "homebrew", "vscode"],
-      page: null,
-      github: "https://github.com/philipdemand/e-vent-app",
-      alt: "e-vent",
-      image: {
-        width: 2880,
-        height: 1644,
-        url: '/e-vent.png'
       }
     },
     {
